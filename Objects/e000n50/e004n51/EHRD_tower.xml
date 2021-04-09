@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+ <path>EHRD_tower.ac</path>
+
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>37.71448</x-m>
+   <y-m>29.72059</y-m>
+   <z-m>42.3</z-m>
+  </offsets>
+ </model>
+
+ <model>
+  <path>Models/Effects/RedLight10000.xml</path>
+  <offsets>
+   <x-m>40.11448</x-m>
+   <y-m>29.71914</y-m>
+   <z-m>42.3</z-m>
+  </offsets>
+ </model>
+ 
+ <animation>
+ <type>material</type> 
+ <object-name>Text</object-name>
+ <condition>
+  <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+ </condition>
+ <emission>	
+  <red>1</red>	
+  <green>1</green>	
+  <blue>1</blue>
+ </emission>
+</animation>
+
+ <animation>
+ <type>material</type> 
+ <object-name>Glass.001</object-name>
+ <condition>
+  <greater-than>
+    <property>/sim/time/sun-angle-rad</property>
+    <value>1.57</value>
+   </greater-than>
+ </condition>
+ <emission>	
+  <red>0.25</red>	
+  <green>0.25</green>	
+  <blue>0.25</blue>
+ </emission>
+</animation>
+
+    <animation>
+        <type>material</type>
+        <object-name>Model</object-name>
+        <condition>
+            <greater-than>
+                <property>/sim/time/sun-angle-rad</property>
+                <value>1.57</value>
+            </greater-than>
+        </condition>
+        <texture>EHRD_tower2.png</texture>
+        <emission>
+            <red> 0.98</red>
+            <green> 0.96</green>
+            <blue> 0.78</blue>
+        </emission>
+    </animation>
+
+</PropertyList>
