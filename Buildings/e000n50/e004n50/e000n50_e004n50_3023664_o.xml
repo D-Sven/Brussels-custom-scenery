@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<PropertyList>
+
+<model>
+  <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+  <offsets>
+    <x-m>4959.66</x-m>
+    <y-m>7001.6</y-m>
+    <z-m>351.532</z-m>
+    <pitch-deg>0.00</pitch-deg>
+    <heading-deg>0.0</heading-deg>
+  </offsets>
+</model>
+
+<model>
+  <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+  <offsets>
+    <x-m>4964.31</x-m>
+    <y-m>6983.27</y-m>
+    <z-m>351.532</z-m>
+    <pitch-deg>0.00</pitch-deg>
+    <heading-deg>0.0</heading-deg>
+  </offsets>
+</model>
+
+<model>
+  <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+  <offsets>
+    <x-m>4984.13</x-m>
+    <y-m>6993.17</y-m>
+    <z-m>351.532</z-m>
+    <pitch-deg>0.00</pitch-deg>
+    <heading-deg>0.0</heading-deg>
+  </offsets>
+</model>
+
+<model>
+  <path>Models/Effects/pos_lamp_red_light_2st.xml</path>
+  <offsets>
+    <x-m>4975.29</x-m>
+    <y-m>7007.27</y-m>
+    <z-m>351.532</z-m>
+    <pitch-deg>0.00</pitch-deg>
+    <heading-deg>0.0</heading-deg>
+  </offsets>
+</model>
+</PropertyList>
